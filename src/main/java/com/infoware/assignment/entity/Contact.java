@@ -16,10 +16,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Table(name = "contacts")
 public class Contact {
 
-//	private static final long serialVersionUID = 1L;
-
-//	private static final long serialVersionUID = 1L;
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;

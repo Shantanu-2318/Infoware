@@ -14,8 +14,6 @@ import javax.persistence.Table;
 @Table(name = "employee")
 public class Employee {
 
-//	private static final long serialVersionUID = 1L;
-
 	@Id
 	private int id;
 
